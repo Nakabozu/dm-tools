@@ -1,8 +1,8 @@
 /* BLANCA HOOK!
    Hooks run every time the app is started and keep running as long as the server persists. */
 import { DISCORD_TOKEN } from "$env/static/private";
-import { Client, Events, GatewayIntentBits, IntentsBitField, SlashCommandBuilder, command } from "discord.js";
-import { items } from "$lib/server/items.ts";
+import { Client, Events, GatewayIntentBits, IntentsBitField, SlashCommandBuilder } from "discord.js";
+import { items } from "$lib/server/items";
 import seedrandom from "seedrandom";
 
 // Initialize the list of items that could be up for sale
