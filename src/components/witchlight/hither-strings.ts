@@ -269,19 +269,54 @@ Bright Bubble Bellywash - You gain the Lucky feat 3 long rests.
 Thistle Tickle Tea -      You gain a Red Dragonborn's breath weapon for 3 long rests.
 Mystic Misty Moonbeams -  You may cast the "Web" spell once per long rest for 3 long rests.
 Sour Sap Soup -           You gain the respect of the harengon, giving you advantage on rolls made with them, for 3 long rests.
-Tender Treasure Tart -    You feel a closeness to those around you.  You can use the help action as a bonus action for 3 long rests.
+Tender Treasure Tart -    You feel a closeness to those around you.  You can use the help action as a bonus action for 3 long rests with any ally you can see.
 
+As the clanks of forks, spoons, and glasses die down, the murmur of chatter grows.  A few catch your ear.
+An aristocratic looking male Spring Eladrin discusses gossip about Titania with a female Autumn Eladrin.
+A gnome and a halfling discuss the rampaging monster in the south and how they lost their friend to it. 
+Jingle Jangle drunkenly regales a group of Harengon with the tale of Agdon in as much detail as she can recall.
+A satyr in a sailor's uniform mutters to himself with large bags under his eyes as a pixie consoles him.
+Two Boggles in tiny suits sing a small song about how happy they are to leave.
 
-As you idly chat and eat your meals, you hear a scream from the opposite end of the stump.  
+Spring Eladrin - Titania's loyal vassel, Sir Talavar has returned to the Summer court! Rumor has it he's trying to save Prismeer.
+Autumn Eladrin - What a man of honor.  I wish I knew Sir Talavar...
+Spring Eladrin - What I wouldn't give to be his squire.
+
+Halfling - Pity they haven't caught the thing.
+Gnome - I just want justice for ol' Elmer and wover.  Ate 'em and took over his house I heard.
+Halfling - Pity.  Once of the best mason based tinkerers of our generation, gone to a hideous beast that doesn't belong here.
+Gnome - Have you thought about putting a reward on it?
+Halfling - And lure some folk in need to pennies to their death?  I couldn't live with myself.
+Gnome - I suppose you're right.
+
+Jingle Jangle - Just drunkenly read the Agdon story with Jingle Jangle's speech quirk.  Have Jingle Jangle inject herself and her admiration into the story.  Agdon sits close, looking pleased.
+
+Satyr - I mean, how did it know?
+Pixie - There there...
+Satyr - It's like it spilled bile on my mind that I'll never scrape away.
+Pixie - All wounds heal in time...
+Satyr - What did it want with the heart?
+
+Boggle 1 - Big stump host is crass.
+Boggle 2 - Big stump have no grass.
+Boggle 1 - No want to talk to yous.
+Boggle 2 - Just want go home and snooze.
+Boggle 1 - Take me back to the well.
+Boggle 2 - Where life be oh so swell.
+Boggle 1 and 2 - Now that the land is green and water clean.
+
+As you idly chat, you hear a scream from the opposite end of the reception.  
 A hideous, froglike creature with a patchy cloak, green skin, and massive bulging eyes creeps towards you on a lilypad with a hideous grin on her face.
 It's Bavlorna Blightstraw.
 
 "Well well well well well well well...  Blanca has returned to her roots and is partaking in grand parties again I see.
 I suppose I should offer you my blessing, maybe a gift, but you know I don't give anything away for free.
 
-Blanca hisses, "What do yew wunt Buvlohrna?"
+Blanca hisses, "Wut do yew wunt Buvlohrna?"
 
 "Nothing!  Nothing at all!"  She says with a smirk as she thrusts her arm into the air, "I just came to give the bride her WELL WISHES!!!" 
-and as she says this, disgustingly murky water shoots from over one side of the stump as she cackles and `,
+and as she says this, disgustingly murky water shoots from over one side of the stump as she cackles. 
+"Sorry I couldn't get you anything on the registry!  But what better gift to give someone who has it all than something handmade?
+She continues her hideous laugh and floats away.`,
 }
 };
