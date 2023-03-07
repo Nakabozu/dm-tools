@@ -21,6 +21,105 @@ You feel as though you're one with nature as you rest and meditate in peace.  Ga
 },
 
 
+tables: {
+    carousingCompanions: [
+        {
+            desc: "The fey spirit of a fallen gnome that died guarding Zybilna",
+            link: "https://5e.tools/bestiary.html#fey%20spirit_tce,scaledspellsummon:3"
+        },
+        {
+            desc: "Bullywug aristocrats seeking a squire to sponsor",
+            link: "https://5e.tools/bestiary.html#bullywug%20royal_gos"
+        },
+        {
+            desc: "Pixies looking for someone new to tease",
+            link: "https://5e.tools/bestiary.html#pixie_mm"
+        },
+        {
+            desc: "Dohwar travelers seeking safety while they search for assylum",
+            link: "https://5e.tools/bestiary.html#dohwar_bam"
+        },
+        {
+            desc: "Harengon who admires you after hearing about how you defeated Agdon and tamed Blanca",
+            link: "https://5e.tools/bestiary.html#harengon%20brigand_wbtw"
+        },
+        {
+            desc: "Satyr hoping to learn the party's vibe and chill with them",
+            link: "https://5e.tools/bestiary.html#satyr%20reveler_mot"
+        },
+        {
+            desc: "Dryad corrupted into a swamp Naiad that wants to learn how to turn back",
+            link: "https://5e.tools/bestiary.html#naiad_cm"
+        },
+        {
+            desc: "Valenar Hawk with no master.  You remind them of their old master who died in this swampy mire.",
+            link: "https://5e.tools/bestiary.html#valenar%20hawk_erlw"
+        },
+    ],
+    researchingRomance: [
+        {
+            desc: "You cannot find a single piece of literature that makes sense to you.  " +
+            "You can't read half of these books, a vast majority of the ones you can read are not about romance, " +
+            "and the one that are about romance are hopelessly confusing in the way they present their content.",
+        },
+        {
+            desc: "Finding books on romance is hard, but you do manage to stumble upon a few you understand.  " +
+            "Unfortunately, every fey romantic belief challenges your notions of what romance is and you are in inner tumoil just reading them.",
+        },
+        {
+            desc: "The only book you find is written by an elf and is hopelessly clinical in it's assessment of what romance is and how to make it blossom.  " +
+            "Still, you do learn one gesture of romance that could be helpful to you.",
+        },
+        {
+            desc: "You find a book documenting the history of romance in the feywild.  " +
+            "Most of the practices are incredibly dated, but one sticks out to you as a convincing display of affection.",
+        },
+        {
+            desc: "You find a childrens' book that covers about two bunnies falling in love.  " +
+            "It is a short tale in which the display of affection is shown when the bunnies confess their love to one another.",
+        },
+        {
+            desc: "The book you find is... let's say adult in content.  " +
+            "It does have a section that isn't as mature as the others with two great ideas for displays of affection.",
+        },
+        {
+            desc: "You find a lengthy romance novel by the author Beabee.  " +
+            "Most of the displays of affection are so lavish or outlandish that you don't have the means to reproduce them, but they give you three genuine and convincing ideas.",
+        },
+        {
+            desc: "You bump into Agdon while you conduct your research.  He recalls your duel with enthusiasm and asks what you're looking for." +
+            "Hearing your goal, he offers to tell you all about Blanca's likes, dislikes, and loves.",
+        },
+    ],
+    romanticGestures: [
+        {
+            desc: "Cuddling up by a fire with a warm cup of thistle tea and telling stories about hopes and dreams.",
+        },
+        {
+            desc: "Creating a grand scavenger hunt featuring items of sentimental value.  Simulate a grand adventure to get her out of her den.",
+        },
+        {
+            desc: "Performing a play or ballad for them with a romantic plot. Bonus points for making a fool of yourself in the process.",
+        },
+        {
+            desc: "Pulling mischevious and downright criminal pranks on the aristocracy in Downfall.",
+        },
+        {
+            desc: "Risk your life to obtain something priceless, even if it's totally useless.",
+        },
+        {
+            desc: "Take her away from her work to somewhere shady and secluded and dance with her.",
+        },
+        {
+            desc: "Challenge her to a fight or race.  She picked up a love of duels from her time with Agdon.",
+        },
+        {
+            desc: "A spa treatment where you brush her matted fur out.  This was one of the only parts of her life as the daughter of an aristocrat that she enjoyed.",
+        },
+    ]
+},
+
+
 owells: {
 approach: `As you near the bubbling o'well, the stench of rotting vegitation grows stronger.  
 Buzzing and croaking is heard loudly from every direction.
@@ -151,5 +250,38 @@ Phara may ask whatever she likes.
 
 If anyone doesn't answer according to Blanca's standards, she will kill a party member at random, starting with Jingle Jangle.
 If they state that they are trying to stop Bavlorna, she warms up to them, releases them, and gives them a gift of their choosing for their troubles as well as a Blanca Bank.`,
+marriage: `
+When you open the hatch to join the wedding, you see a slew of fey creatures mingling before you.  
+Vibrant flower petals rain down from the sky in an extravigant display, disappearing when they touch the ground.
+Will-o-wisps dart through the air, causing shadows to dance, sometimes in ways that don't match their owners.
+Speaches are given, praising Blanca for her dedication to the warren, laughing about her first bride being money, and joking that Card has gotten well in over her head.
+Any one of the party members can give a speech if they like. 
+
+When speeches are done, a harengon waiter places a menu before you.  He states that you may choose from two of the five items below, none of which are given a description on the menu.
+Bright Bubble Bellywash - A savory, sparkling drink that bubbles up from magic springs across the feywild.  This fickle drink bubbles away quickly and is said to be as hard to obtain as the favor of the gods themselves.
+Thistle Tickle Tea -      A bitter and acrid tea made from the leaves of the thistle plant. Every harengon gulps it down delightedly, but the other fey creatures don't care to indulge in it, as it burns the throat.
+Mystic Misty Moonbeams -  A salty snack made of a thin, weblike bread dusted in powdery salt.  It gives off an ethereal glow and is surprising filling, given how light it is.  When you finish the this dish, you faintly glow the same color as it.
+Sour Sap Soup -           A sour syrup extracted from Agdon's tree, stewed with root vegetables. Its tart flavor is unbearable to everyone's palates, yet everyone who orders it eats it as a matter of respect and tradition.
+Tender Treasure Tart -    A sweet tart in the shape of a chest.  Opening the chest's lid reveals a treasure of glistening berries that are rumored to entwine your soul with those around you.  Indeed, with bite you take, recall the fond moments you've spent with everyone recently.
+
+The magic baked and stewed into each meal provides you with a temporary buff
+Bright Bubble Bellywash - You gain the Lucky feat 3 long rests.
+Thistle Tickle Tea -      You gain a Red Dragonborn's breath weapon for 3 long rests.
+Mystic Misty Moonbeams -  You may cast the "Web" spell once per long rest for 3 long rests.
+Sour Sap Soup -           You gain the respect of the harengon, giving you advantage on rolls made with them, for 3 long rests.
+Tender Treasure Tart -    You feel a closeness to those around you.  You can use the help action as a bonus action for 3 long rests.
+
+
+As you idly chat and eat your meals, you hear a scream from the opposite end of the stump.  
+A hideous, froglike creature with a patchy cloak, green skin, and massive bulging eyes creeps towards you on a lilypad with a hideous grin on her face.
+It's Bavlorna Blightstraw.
+
+"Well well well well well well well...  Blanca has returned to her roots and is partaking in grand parties again I see.
+I suppose I should offer you my blessing, maybe a gift, but you know I don't give anything away for free.
+
+Blanca hisses, "What do yew wunt Buvlohrna?"
+
+"Nothing!  Nothing at all!"  She says with a smirk as she thrusts her arm into the air, "I just came to give the bride her WELL WISHES!!!" 
+and as she says this, disgustingly murky water shoots from over one side of the stump as she cackles and `,
 }
 };

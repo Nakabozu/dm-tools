@@ -32,6 +32,9 @@
 
             <h3>Capture</h3>
             <pre>{hitherStrings.brigands.capture}</pre>
+
+            <h3>Marriage</h3>
+            <pre>{hitherStrings.brigands.marriage}</pre>
         </section>
     </article>
 </article>
