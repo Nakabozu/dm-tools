@@ -254,8 +254,14 @@ marriage: `
 When you open the hatch to join the wedding, you see a slew of fey creatures mingling before you.  
 Vibrant flower petals rain down from the sky in an extravigant display, disappearing when they touch the ground.
 Will-o-wisps dart through the air, causing shadows to dance, sometimes in ways that don't match their owners.
-Speaches are given, praising Blanca for her dedication to the warren, laughing about her first bride being money, and joking that Card has gotten well in over her head.
-Any one of the party members can give a speech if they like. 
+Speeches are given, praising Blanca for her dedication to the warren, laughing about her first bride being money, and joking that Card has gotten well in over her head.
+Agdon's is particularly sincere, and his scarf turns a bright pink as he taps a glass to gather the crowd's attention.
+"Blanca, when I met you, you were a lady of the Emerald Woods living a humdrum life of bored politics.  
+I took fistfulls of gold, gems, jewelry, and even a few paintings from that treetop palace and still you were the grandest thing I ever stole from them.
+More precious than Titania's diamond tipped wand, more coveted than the green knights gold draped axe, and more captivating than any melody from Damh's flute.
+We didn't always see eye to eye in our adventures, but I've never treasured a companion the same way as you.  Thanks for sticking with me through the bramble.
+Just know that your marriage won't change the fact that I'll always be there for you, even if you're Card's problem now."  He says with a wink at Card.
+The crowd laughs and Agdon sits back down.  Seems like speeches are done unless any of the party members has something they'd like to say. 
 
 When speeches are done, a harengon waiter places a menu before you.  He states that you may choose from two of the five items below, none of which are given a description on the menu.
 Bright Bubble Bellywash - A savory, sparkling drink that bubbles up from magic springs across the feywild.  This fickle drink bubbles away quickly and is said to be as hard to obtain as the favor of the gods themselves.
@@ -273,10 +279,10 @@ Tender Treasure Tart -    You feel a closeness to those around you.  You can use
 
 As the clanks of forks, spoons, and glasses die down, the murmur of chatter grows.  A few catch your ear.
 An aristocratic looking male Spring Eladrin discusses gossip about Titania with a female Autumn Eladrin.
-A gnome and a halfling discuss the rampaging monster in the south and how they lost their friend to it. 
+An old gnome and halfling discuss a rampaging monster in the south and how they lost their friend to it. 
 Jingle Jangle drunkenly regales a group of Harengon with the tale of Agdon in as much detail as she can recall.
 A satyr in a sailor's uniform mutters to himself with large bags under his eyes as a pixie consoles him.
-Two Boggles in tiny suits sing a small song about how happy they are to leave.
+Two Boggles in tiny suits sing a short song about how happy they'll be when they leave.
 
 Spring Eladrin - Titania's loyal vassel, Sir Talavar has returned to the Summer court! Rumor has it he's trying to save Prismeer.
 Autumn Eladrin - What a man of honor.  I wish I knew Sir Talavar...
@@ -301,7 +307,7 @@ Boggle 1 - Big stump host is crass.
 Boggle 2 - Big stump have no grass.
 Boggle 1 - No want to talk to yous.
 Boggle 2 - Just want go home and snooze.
-Boggle 1 - Take me back to the well.
+Boggle 1 - Take me to my well.
 Boggle 2 - Where life be oh so swell.
 Boggle 1 and 2 - Now that the land is green and water clean.
 
@@ -314,9 +320,12 @@ I suppose I should offer you my blessing, maybe a gift, but you know I don't giv
 
 Blanca hisses, "Wut do yew wunt Buvlohrna?"
 
-"Nothing!  Nothing at all!"  She says with a smirk as she thrusts her arm into the air, "I just came to give the bride her WELL WISHES!!!" 
-and as she says this, disgustingly murky water shoots from over one side of the stump as she cackles. 
-"Sorry I couldn't get you anything on the registry!  But what better gift to give someone who has it all than something handmade?
-She continues her hideous laugh and floats away.`,
+"Nothing!  Nothing at all!"  She snears with a smirk as she thrusts her arm into the air, "I just came to give the bride her WELL WISHES!!!" 
+and as she says this, disgustingly murky water in the shape of a fist shoots from over one side of the stump as she cackles, slamming a cluster of partygoers to the ground. 
+It pulls the rest of it's body up, revealing a monsterous lornling surrounded by the murk of the mire like a suit of armor.  A swamp golem.
+"Sorry I couldn't get you anything on the registry!  But what better gift to give someone who has it all than something homemade?"
+She continues her hideous laugh as she floats away from the commotion as most partygoers dash away from the monstrosity.
+"
+`,
 }
 };
