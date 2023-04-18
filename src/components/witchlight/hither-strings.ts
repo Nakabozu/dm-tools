@@ -327,5 +327,23 @@ It pulls the rest of it's body up, revealing a monsterous lornling surrounded by
 She continues her hideous laugh as she floats away from the commotion as most partygoers dash away from the monstrosity.
 "
 `,
+},
+
+downfall: {
+overview: `
+PRIMARY ACTORS OF BULLYWUG POLITICS:
+Gullop XIX ♂ The Scheming King - This place was better when Zybilna ruled and her 3 laws were in place.  Now she's gone, nobody can protect their own hide.
+Illig ♂ The Baron of Muckstump - Not all bullywugs are created equal; so leave the thinking to the thinkers.  That's his motto
+Morgort ♀ The Knight of Warts - Like Sir Talavar, I'll become a knight of great renown!
+
+PARTY POLITICAL OPTIONS:
+ROYAL LINEAGE - Leave Gullop XIX on the throne.  Default option if the players do not involve themselves with politics.
+ARISTOCRACY - Illig, being the next best candidate for king, is starting a coup against Gullop XIX to instate an aristorcacy
+MILITROCRACY - Morgort has a peasant uprising in the works.  She wishes to train any willing citizen to knighthood and have the knights rule and protect downfall.
+PLAYER CHARACTER RULE - The PCs can lead the bullywugs if they like.  If they become king and can stay behind and rule, replacing their character, or leave someone to rule in their stead.
+`,
+trial:`
+
+`
 }
 };
