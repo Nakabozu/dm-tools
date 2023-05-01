@@ -188,6 +188,7 @@ export const items: Array<any> = [
         "page": 134,
         "type": "INS",
         "rarity": "uncommon",
+        "value": 48000,
         "reqAttune": "by a bard",
         "reqAttuneTags": [
             {
@@ -202,6 +203,10 @@ export const items: Array<any> = [
         "entries": [
             "While holding this {@item drum|PHB}, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your bard spells.",
             "As an action, you can play the {@item drum|PHB} to regain one use of your Bardic Inspiration feature. This property of the {@item drum|PHB} can't be used again until the next dawn."
+        ],
+        "nakentries": [
+            "The patterns on this drum dance in time with the energy of your environment, as though guiding you to play each thump to the beat of your surroundings.",
+            "Playing this drum imbues a bard's magic with the energy of the world around them, making their spells more potent and their well of inspiration deeper."
         ]
     },
     {
@@ -3046,7 +3051,7 @@ export const items: Array<any> = [
             "If you are reduced to zero hit points while attuned to a band of loyalty, you instantly die. These rings are favored by spies who can't afford to fall into enemy hands."
         ],
         "nakentries": [
-        "The assassins guild of Tevnir say that the most deadly thing in the planes is loyalty.  This is an undisputed truth to the guild's members; a fact realized though the use of these rings.",
+        "The assassins guild of Tevnir has a saying: The most deadly thing in the planes is loyalty.  This is an undisputed truth to the guild's members; a fact realized though the use of these rings.",
         "This ring can never be removed once put on and contains a single charge.  When a creature wearing this ring is knocked unconscious in the presence of enemies, a charge is expended a poison strong enough to instantaneously kill all but the strongest of creatures is injected into the wearer.",
         "A person that dies while wearing this item cannot have their soul summoned nor their animated spirit retrieved. Not even death may pry secrets from the assassins of Tevnir.",
         ]
@@ -6431,6 +6436,7 @@ export const items: Array<any> = [
         "source": "AI",
         "page": 20,
         "rarity": "common",
+        "value": 5000,
         "wondrous": true,
         "entries": [
             {
@@ -6493,6 +6499,10 @@ export const items: Array<any> = [
                     }
                 ]
             }
+        ],
+        "wbtwentries": [
+            "TRAVEL LOG 1803: Smashed big glowing rock, as assigned to do. Sent to parallel of Waterdeep. Town populated by competing corporations. Hired by one \"Omin Dran\". Granted \"Cartographer's Map Case\" as sign-on bonus.",
+            "Case has near infinite supply of maps. Rarely found correct map for current location. Gave to Skip. Skip found maps with shortcuts and secret paths to our destinations. Recommend selling to survivalist with good spacial awarness."
         ],
         "hasFluffImages": true
     },
@@ -7298,6 +7308,11 @@ export const items: Array<any> = [
         },
         "entries": [
             "While wearing this cloak with its hood up, you can breathe underwater, and you have a swimming speed of 60 feet. Pulling the hood up or down requires an action."
+        ],
+        "wbtwentries": [
+            "Ahh, looking at another one of these reminds me of my greatest escape in recent memory. The pirates of Yonk lake had me captured, dead to rights for taking their booty and tossing it overboard.",
+            "I had a final request before they tied me up and made me walk the gangplank: \"Could you pull my hood up so I look badass as I die?\"",
+            "Not my finest bit of convincing, but they smugly obliged since I was a talking corpse to them either way.  Little did they know, when the hood of this cloak is up you can breath and traverse water like the graceful merfolk themselves."
         ],
         "lootTables": [
             "Magic Item Table B"
@@ -8585,6 +8600,7 @@ export const items: Array<any> = [
         "page": 137,
         "tier": "minor",
         "rarity": "common",
+        "value": 4900,
         "reqAttune": "by a warlock",
         "reqAttuneTags": [
             {
@@ -8604,6 +8620,14 @@ export const items: Array<any> = [
                     "You can try to cast a cantrip that you don't know. The cantrip must be on the warlock spell list, and you must make a DC 10 Intelligence ({@skill Arcana}) check. If the check succeeds, you cast the spell. If the check fails, so does the spell, and the action used to cast the spell is wasted. In either case, you can't use this property again until you finish a long rest."
                 ]
             }
+        ],
+        "wbtwentries": [
+            "I *LOVE* this little thing. The gem has these swirly streaks on the inside and it whispers sweetly to you when you hold it up to your ear~!",
+            "It saved me a few times while I was on a business relations mission in the Chultan peninsula. Some backwater tribal village we get cheap wood from--you know the like.",
+            "I got lost and it started a fire to keep me warm. I cracked my glasses and it fixed them for me.  I was looking for shelter at night and it lit my way.", 
+            "I finaly got to my meeting point and a man spotted me listening to the little gem and knocked his bow.",
+            "I cringed and held the gem up in front of me as the arrow was almost pointed at my head and the little gem blew his head right off before he could fire-BAHAHA!",
+            "The little gem must have been tired after that, because I didn't hear it talk anymore. Still, I tell it what a good job it did when I tuck it in every night."
         ]
     },
     {
@@ -11219,10 +11243,16 @@ export const items: Array<any> = [
         "srd": true,
         "tier": "minor",
         "rarity": "uncommon",
+        "value": 10000,
         "wondrous": true,
         "entries": [
             "Found in a small container, this powder resembles very fine sand. It appears to be {@item dust of disappearance}, and an {@spell identify} spell reveals it to be such. There is enough of it for one use.",
             "When you use an action to throw a handful of the dust into the air, you and each creature that needs to breathe within 30 feet of you must succeed on a DC 15 Constitution saving throw or become unable to breathe while sneezing uncontrollably. A creature affected in this way is {@condition incapacitated} and suffocating. As long as it is conscious, a creature can repeat the saving throw at the end of each of its turns, ending the effect on it on a success. The {@spell lesser restoration} spell can also end the effect on a creature."
+        ],
+        "nakentries": [
+            "This dust is also called \"Alchemist's Accident,\" as it was first created by cutting corners while synthesizing Dust of Disappearance.",
+            "There's a single handful of dust in the bag and tossing a handful into the air causes every creature within 30ft that needs to breath to uncontrollably sneeze and choke, as its name would imply.  While incredibly rare, it can cause death by suffocation.",
+            "This dust has an identical magic signature to Dust of Disappearance, so many an unsuspecting rogue has met their demise by purchasing this on the black market, expecting it to get them out of a pinch."
         ],
         "lootTables": [
             "Magic Item Table B"
@@ -11399,6 +11429,7 @@ export const items: Array<any> = [
         "source": "ERLW",
         "page": 277,
         "rarity": "uncommon",
+        "value": 48000,
         "reqAttune": true,
         "wondrous": true,
         "recharge": "dawn",
@@ -11421,6 +11452,11 @@ export const items: Array<any> = [
                     "The earworm can't be removed from you while you're attuned to it, and you can't voluntarily end your attunement to it. If you're targeted by a spell that ends a curse, your attunement to the earworm ends, and it exits your body."
                 ]
             }
+        ],
+        "nakentries": [
+            "Eberron is host to all manner of symbionts such as this.  The educated planeswalker knows that these beings are unnatural, created by the lords of the plane of madness, Xoriat, as a means to scout sources of knowledge and power.",
+            "While the earworm remains attached to you, it has four charges.  You may expend two charges to tap into it's mind reading powers and cast detect thoughts.  You may spend one charge to tap into it's brain wracking powers and cast dissonant whispers.  These charges are regained while you rest at night and the worm syncs its consciousness to the nearest other earworm or a daelkyr (humanoid from Xoriat) on the same plane as you.",
+            "For those of you seeking power at any cost, this is the low road to simple psionics; though The Shady Market advises customers stay away from such items."
         ],
         "attachedSpells": [
             "dissonant whispers",
@@ -16474,12 +16510,18 @@ export const items: Array<any> = [
         "page": 137,
         "tier": "minor",
         "rarity": "common",
+        "value": 1500,
         "wondrous": true,
         "recharge": "dawn",
         "rechargeAmount": "{@dice 1d4}",
         "charges": 4,
         "entries": [
             "This horn has 4 charges. When you use an action to blow it, one creature of your choice can hear the horns blare, provided the creature is within 600 feet of the horn and not {@condition deafened}. No other creature hears sound coming from the horn. The horn regains {@dice 1d4} expended charges daily at dawn."
+        ],
+        "nakentries": [
+            "The barbarian dwarves of the Frostrill mountains found that sounding their horns for aid would summon hostile orcs long before allies arrived.",
+            "Unimak Giantskull granted a strange hermit a high place in the tribe and his eternal protection when the hermit gifted the horn of silent alarm.",
+            "When you use this horn, only the people you concentrate on can hear its sound."
         ]
     },
     {
@@ -17738,6 +17780,7 @@ export const items: Array<any> = [
         "type": "INS",
         "tier": "minor",
         "rarity": "common",
+        "value": 6000,
         "reqAttune": true,
         "wondrous": true,
         "recharge": "dawn",
@@ -17746,6 +17789,11 @@ export const items: Array<any> = [
         "entries": [
             "This musical instrument has 3 charges. While you are playing it, you can use an action to expend 1 charge from the instrument and write a magical message on a nonmagical object or surface that you can see within 30 feet of you. The message can be up to six words long and is written in a language you know. If you are a bard, you can scribe an additional seven words and choose to make the message glow faintly, allowing it to be seen in nonmagical darkness. Casting {@spell dispel magic} on the message erases it. Otherwise, the message fades away after 24 hours.",
             "The instrument regains all expended charges daily at dawn."
+        ],
+        "nakentries": [
+            "They say music is the language of the soul, and this instrument makes that expression a bit more literal.",
+            "This instrument has five charges.  While playing this instrument, you can expend a charge to cause six words to appear on any non-magical surface within 30ft of you that you can see.  If you're a bard, your skill with musical instruments lets you write up to thirteen words and those words can glow so they are visible in darkness.",
+            "To recharge the instrument, you must recite your favorite lyrics to it in the shade of a tree.  No singalong is complete without one!"
         ]
     },
     {
@@ -20439,9 +20487,16 @@ export const items: Array<any> = [
         "page": 138,
         "tier": "minor",
         "rarity": "common",
+        "value": 2500,
         "wondrous": true,
         "entries": [
             "This lock appears to be an ordinary lock (of the type described in chapter 5 of the Player's Handbook) and comes with a single key. The tumblers in this lock magically adjust to thwart burglars. Dexterity checks made to pick the lock have disadvantage."
+        ],
+        "nakentries": [
+            "Crafted by Felsin of Arenula under the tutelage of Baron Merrix d'Cannith on Ebberon, who did not believe in single purpose items.",
+            "Though it appears ordinary, it has three functions. First, it's completely immune to the detect magic, identify, and knock spells; and if one of these spells is cast near it, the lock sends an alert to whomever is attuned to it.",
+            "Second, if attached to a chest, the lock's tumblers shift in sync with one another, making it nearly impossible to pick.",
+            "Third, if attached to a door, it can be picked quite easily, but once the lockpicker passes through the doorway, the lock slams the door shut and locks it behind them, barring their escape."
         ]
     },
     {
@@ -20517,6 +20572,7 @@ export const items: Array<any> = [
         "source": "SCC",
         "page": 39,
         "rarity": "uncommon",
+        "value": 54999,
         "reqAttune": "by a spellcaster",
         "reqAttuneTags": [
             {
@@ -20530,6 +20586,10 @@ export const items: Array<any> = [
         "entries": [
             "The Lorehold Primer is a magic textbook created at Strixhaven's Lorehold College. The primer has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. If you make an Intelligence ({@skill History}) or Intelligence ({@skill Religion}) check while holding the primer, you can expend 1 charge to give yourself {@dice 1d4} bonus to the check, immediately after you roll the {@dice d20}.",
             "In addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the cleric or wizard spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma."
+        ],
+        "wbtwentries": [
+            "\"The Shady Market and Strixhaven have teamed up to offer a scholarship program to all brigands looking to harness magics like the greats of past eras!  First 33 to sign on get a free Cuddly Strixhaven Mascot and a Primer from their school of choice!\" - Posters around the burrow say this.",
+            "If you read the subtext, you'll find that the Lorehold Primer radiates reverance for the past to enhance your *History* and *Religion* checks.  It also trains the user on how to cast level one cleric and wizard spells, which will be the focus of the first year of studies."
         ]
     },
     {
@@ -21738,9 +21798,21 @@ export const items: Array<any> = [
         "source": "CRCotN",
         "page": 214,
         "rarity": "common",
+        "value": 500,
         "wondrous": true,
         "entries": [
             "When you use an action to trace the edge of this medal, {@quickref difficult terrain||3} doesn't cost you extra movement for 1 hour. Once this property has been used, it can't be used again, and the medal becomes nonmagical."
+        ],
+        "nakentries": [
+            "On planet Exandria there is a little town on the northern continent of Xhorhas, easily missed on a map.  The wetland village Jigow sits snuggly between where the Emerald Gulch is fed fresh waters by the Ifolon River, and they hide a secret craft: Medals of Talent.", 
+            "Using an action to slowly trace the edge of this medal opens your mind to the safest path to travel.  For one hour after doing so, moving through difficult terrain doesn't cost you extra movement.  When the effect fades, the medal becomes nonmagical.",
+            "Any citizen would be lucky to have one of these as they traverse the boggy land below the Wetwalks."
+        ],
+        "wbtwentries": [
+            "I rigged a little competition in Jigow--you know that little town on stilts in Exandria?--so we could win a ton of their special craft: Medals of Merit.",
+            "We sent a guy with a Medal of the Wetlands to Margrave Belfortz's hold in Downfall.  Extra swampy, that place is, so his cart, horse, legs--everything got stuck in the mud.",
+            "He traced his fingers around this medal while nervously looking at the cart and it started to glow.  Just like that, he could sprint through the bog like it was well packed earth.",
+            "He was able to carry out some of the good stuff, but we lost the bulk of Belfortz's fortune with the horse and cart.  His medal won't work anymore either."
         ]
     },
     {
@@ -21748,7 +21820,7 @@ export const items: Array<any> = [
         "source": "CRCotN",
         "page": 214,
         "rarity": "common",
-        "value": 100,
+        "value": 10000,
         "wondrous": true,
         "entries": [
             "You can press this medal to your temple as an action. Doing so gives you advantage on Intelligence checks and Intelligence saving throws for 1 hour. Once this property has been used, it can't be used again, and the medal becomes nonmagical."
@@ -23928,11 +24000,12 @@ export const items: Array<any> = [
         "hasFluffImages": true
     },
     {
-        "name": "Orzhov Guild Signet",
+        "name": "Orzhov Guild Signet Ring",
         "source": "GGR",
         "page": 178,
         "type": "RG",
         "rarity": "uncommon",
+        "value": 150000,
         "reqAttune": true,
         "recharge": "dawn",
         "rechargeAmount": "{@dice 1d3}",
@@ -23940,6 +24013,12 @@ export const items: Array<any> = [
         "entries": [
             "This ring, adorned with the symbol of Orzhov, allows you to cast {@spell command}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Orzhov's recognition and favor.",
             "A signet has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13)."
+        ],
+        "nakentries": [
+            "The cultish Orzhov Guild takes get rich or die trying to new extremes. Any methods to put coin in their coffer, such as employing armies of undead thralls, recruiting the hopeful poor (that will likely join the undead thralls), and brainwashing the masses to look the other way, are a perfectly acceptable.",
+            "The Orzhov Guild Signet ring is granted to someone who successfully recruited at least 100 new \"workers\" to join the guild and allows a member to \"exercise more control\" over lower ranking members.",
+            "It has three charges. While wearing this ring, you can expend a charge and speak a one word command to a creature that can understand you. If you break their will, they must follow this command, provided it doesn't force them to harm themselves.",
+            "One charge is replenished each time someone you've targeted with a command to kisses the ring. That creature cannot replenish another charge until they are commanded again.",
         ],
         "attachedSpells": [
             "command"
@@ -24401,6 +24480,7 @@ export const items: Array<any> = [
         "srd": true,
         "tier": "major",
         "rarity": "uncommon",
+        "value": 60000,
         "reqAttune": "by a spellcaster",
         "reqAttuneTags": [
             {
@@ -24410,6 +24490,11 @@ export const items: Array<any> = [
         "wondrous": true,
         "entries": [
             "While this pearl is on your person, you can use an action to speak its command word and regain one expended spell slot. If the expended slot was of 4th level or higher, the new slot is 3rd level. Once you have used the pearl, it can't be used again until the next dawn."
+        ],
+        "nakentries": [
+            "To the naked eye, Pearls of Power resemble ordinary pearls.  In truth, they are concentrated draconic energy; a byproduct of a dragon quashing a Dracorage on the plane of Toril.",
+            "This pearl has a single charge.  Whispering a magic word to this pearl expends the charge and restores some of your lost mana to you.",
+            "To recharge the pearl, you must have it on your person while committing an act in a blind rage."
         ],
         "lootTables": [
             "Magic Item Table F"
@@ -24747,9 +24832,14 @@ export const items: Array<any> = [
         "source": "GoS",
         "page": 229,
         "rarity": "common",
+        "value": 1105,
         "wondrous": true,
         "entries": [
             "This long, delicate wooden pipe features a bowl made from smooth river stone. When the pipe is lit, smoke exhaled from it does not dissipate, instead lingering around the bearer. After 10 minutes, the smoke forms moving shapes that reenact the bearer's most impressive and heroic achievements for 5 minutes. When this realistic performance is complete, the smoke dissipates. The pipe can't be used this way again until the next dawn."
+        ],
+        "nakentries": [
+            "Pipes like these are not intentionally crafted, they are born from the constant use of one repeatedly touched by illusion, divination, and enchantments.",
+            "When used, the exhaled smoke lingers around the bearer, coalescing into scenes depicting their highest highs and lowest lows."
         ]
     },
     {
@@ -24758,9 +24848,14 @@ export const items: Array<any> = [
         "page": 138,
         "tier": "minor",
         "rarity": "common",
+        "value": 2000,
         "wondrous": true,
         "entries": [
             "While smoking this pipe, you can use an action to exhale a puff of smoke that takes the form of a single creature, such as a dragon, a flumph, or a froghemoth. The form must be small enough to fit in a 1-foot cube and loses its shape after a few seconds, becoming an ordinary puff of smoke."
+        ],
+        "nakentries": [
+            "Between harrowing adventures, weary explorers with pockets full of gold will splurge on items to embellish tales of their feats.",
+            "Smoking this pipe while recounting a story of a monster you've seen will supplement the narrative with a harmless but fearsome, smokey depiction of said monster."
         ],
         "hasFluffImages": true
     },
@@ -24772,6 +24867,7 @@ export const items: Array<any> = [
         "type": "INS",
         "tier": "major",
         "rarity": "uncommon",
+        "value": 35000,
         "wondrous": true,
         "weight": 2,
         "recharge": "dawn",
@@ -24779,6 +24875,12 @@ export const items: Array<any> = [
         "charges": 3,
         "entries": [
             "You must be proficient with wind instruments to use these pipes. They have 3 charges. You can use an action to play them and expend 1 charge to create an eerie, spellbinding tune. Each creature within 30 feet of you that hears you play must succeed on a DC 15 Wisdom saving throw or become {@condition frightened} of you for 1 minute. If you wish, all creatures in the area that aren't hostile toward you automatically succeed on the saving throw. A creature that fails the saving throw can repeat it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its saving throw is immune to the effect of these pipes for 24 hours. The pipes regain {@dice 1d3} expended charges daily at dawn."
+        ],
+        "nakentries": [
+            "These pipes seem to have a mind of their own, hissing and wheezing when their bearer attempts to play anything in a major key.",
+            "They have three charges and use may use an action to expend one charge and attempt to play an eerie, spellbinding tune.",
+            "If you are talented enough, the lingering essence of the deceased will amalgamate around you, making you appear terrifying to anyone nearby.",
+            "To recharge the pipes, you must visit a graveyard and tend to the headstones for at least an hour."
         ],
         "lootTables": [
             "Magic Item Table F"
@@ -24848,11 +24950,18 @@ export const items: Array<any> = [
         "source": "OotA",
         "page": 222,
         "rarity": "uncommon",
+        "value": 80000,
         "reqAttune": true,
         "wondrous": true,
         "entries": [
             "This dark spider-silk cloak is made by {@creature drow}. It is a {@item cloak of elvenkind}. It loses its magic if exposed to sunlight for 1 hour without interruption.",
             "While you wear this cloak with its hood up, Wisdom ({@skill Perception}) checks made to see you have disadvantage. and you have advantage on Dexterity ({@skill Stealth}) checks made to hide, as the cloak's color shifts to camouflage you. Pulling the hood up or down requires an action."
+        ],
+        "wbtwentries": [
+            "Never send me back to ANYWHERE with drow. \"Oh, but their cloaks are so useful! Half of your job is hiding and you can hide in plain sight with one of these!\"",
+            "Yeah? Then you wear it. It feels like being tangled in a spider's web and it attracts the skittering babies no matter what plane I'm on.",
+            "And while I'm on the topic, thanks for failing to tell me drow magic dissolves in sunlight before you sent me to get them.  Mine's just a useless reminder of the visit now.",
+            "Send a Bullywug next time. I hear they *love* drow and their creepy pets."
         ],
         "hasFluffImages": true
     },
@@ -25213,9 +25322,14 @@ export const items: Array<any> = [
         "page": 138,
         "tier": "minor",
         "rarity": "common",
+        "value": "100",
         "wondrous": true,
         "entries": [
             "While holding this 10-foot pole, you can use an action to speak a command word and cause it to collapse into a 1-foot-long rod, for ease of storage. The pole's weight doesn't change. You can use an action to speak a different command word and cause the rod to revert to a pole; however, the rod will elongate only as far as the surrounding space allows."
+        ],
+        "wbtwentries": [
+            "Sure, take 'em if ya wunt.  We just use 'em to prop up the burrows uh'fore we add the real beams.  Mighty sturdy they er; and easier tuh say \"grow\" and \"shrink\" than tuh use the ones with no magics.",
+            "The arty we got on retainer can always make more on the cheap; iffin you got a want and coin fer more. Reckon they could take quite a beating from lots a stuffs in a dungeon."
         ],
         "hasFluffImages": true
     },
@@ -25431,6 +25545,7 @@ export const items: Array<any> = [
         "type": "P",
         "tier": "minor",
         "rarity": "common",
+        "value": 4000,
         "modifySpeed": {
             "equal": {
                 "climb": "walk"
@@ -25438,6 +25553,9 @@ export const items: Array<any> = [
         },
         "entries": [
             "When you drink this potion, you gain a climbing speed equal to your walking speed for 1 hour. During this time, you have advantage on Strength ({@skill Athletics}) checks you make to climb. The potion is separated into brown, silver, and gray layers resembling bands of stone. Shaking the bottle fails to mix the colors."
+        ],
+        "wbtwentries": [
+            "Hey Thump, you ever see that talkie with the human who gets bit by a cursed Ettercap and then he gets these sticky hands and can climb walls and stuff?  Every time I drink one of these I can't help but remember that scene."
         ],
         "lootTables": [
             "Magic Item Table A"
@@ -25971,9 +26089,15 @@ export const items: Array<any> = [
         ],
         "tier": "minor",
         "rarity": "uncommon",
+        "value": 25000,
         "hasRefs": true,
         "entries": [
             "{#itemEntry Potion of Resistance}"
+        ],
+        "nakentries": [
+            "There is a plane, sometimes seen in nightmares, full of eldritch horrors that enfeeble the minds of humanoids to keep them as slaves or slowly transform them into one of their own.",
+            "Every planeswalker is familiar with this place: The Astral Plane.  Home to the illithids, or Mind Flayers in the common tongue.",
+            "One slip while you traverse planes and you will find yourself there, in the space between.  All reasonable planeswalkers keep a few of these potions on them should that time come."
         ]
     },
     {
@@ -26120,7 +26244,7 @@ export const items: Array<any> = [
         "page": 62,
         "type": "P",
         "rarity": "common",
-        "value": "1000",
+        "value": 1000,
         "entries": [
             "When you drink this potion, you gain the following benefits for the next 8 hours: magic can't put you to sleep, and you can remain awake during a long rest and still gain its benefits. This sweet, amber-colored brew has no effect on creatures that don't require sleep, such as elves."
         ],
@@ -26426,6 +26550,7 @@ export const items: Array<any> = [
         "source": "SCC",
         "page": 39,
         "rarity": "uncommon",
+        "value": 54999,
         "reqAttune": "by a spellcaster",
         "reqAttuneTags": [
             {
@@ -26439,6 +26564,10 @@ export const items: Array<any> = [
         "entries": [
             "The Prismari Primer is a magic textbook created at Strixhaven's Prismari College. The primer has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. If you make a Dexterity ({@skill Acrobatics}) or a Charisma ({@skill Performance}) check while holding the primer, you can expend 1 charge to give yourself a {@dice 1d4} bonus to the check, immediately after you roll the {@dice d20}.",
             "In addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the bard or sorcerer spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma."
+        ],
+        "wbtwentries": [
+            "\"The Shady Market and Strixhaven have teamed up to offer a scholarship program to all brigands looking to dazzle crowds with passionate prestidigitations!  First 33 to sign on get a free Cuddly Strixhaven Mascot and a Primer from their school of choice!\" - Posters around the burrow say this.",
+            "If you read the subtext, you'll find that holding the Prismari Primer loosens the limbs to enhance your *Acrobatics* and *Performance* checks.  It also trains the user on how to cast level one bard and sorcerer spells, which will be the focus of the first year of studies."
         ]
     },
     {
@@ -26873,6 +27002,7 @@ export const items: Array<any> = [
         "source": "SCC",
         "page": 39,
         "rarity": "uncommon",
+        "value": 54999,
         "reqAttune": "by a spellcaster",
         "reqAttuneTags": [
             {
@@ -26886,6 +27016,10 @@ export const items: Array<any> = [
         "entries": [
             "The Quandrix Primer is a magic textbook created at Strixhaven's Quandrix College. The primer has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. If you make an Intelligence ({@skill Arcana}) or an Intelligence ({@skill Nature}) check while holding the primer, you can expend 1 charge to give yourself a {@dice 1d4} bonus to the check, immediately after you roll the {@dice d20}.",
             "In addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the druid or wizard spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma."
+        ],
+        "wbtwentries": [
+            "\"The Shady Market and Strixhaven have teamed up to offer a scholarship program to all brigands who tinker with the theurgy that makes the world tick!  First 33 to sign on get a free Cuddly Strixhaven Mascot and a Primer from their school of choice!\" - Posters around the burrow say this.",
+            "If you read the subtext, you'll find that holding the Quandrix Primer organizes your thoughts to enhance your *Arcana* and *Nature* checks.  It also trains the user on how to cast level one druid and wizard spells, which will be the focus of the first year of studies."
         ]
     },
     {
@@ -29661,9 +29795,15 @@ export const items: Array<any> = [
         "source": "GoS",
         "page": 229,
         "rarity": "common",
+        "value": 7890,
         "wondrous": true,
         "entries": [
             "Skillfully carved from sandstone, this 1-foot-tall statuette depicts a shark twisting through the water with its mouth open. If any Tiny sea-dwelling animal is within 1 inch of the statuette's mouth, the shark flashes to life and deals 1 piercing damage to it. The shark can deal damage in this way no more than once per hour."
+        ],
+        "nakentries": [
+            "Statues such as these often wash up on shore from who-knows-where.",
+            "This 1ft tall statue depicts a shark winding through swirling waters.  If the statue is active and a sea-dwelling creature comes within 1 inch of it, the shark comes to life, biting at it until the creature leaves or dies.",
+            "Many imagine such items come from a lost civilization of oceanic people who crafted them as a form of pest control."
         ]
     },
     {
@@ -30173,10 +30313,15 @@ export const items: Array<any> = [
         "type": "S",
         "tier": "minor",
         "rarity": "common",
+        "value": 2000,
         "weight": 6,
         "ac": 2,
         "entries": [
             "The front of this shield is shaped in the likeness of a face. While bearing the shield, you can use a bonus action to alter the face's expression."
+        ],
+        "nakentries": [
+            "A shield with a face on it.  Perhaps this was an experiment by some bored artificer.",
+            "As a bonus action, you may change the expression of the face.  You may concentrate on the face to make its expression match yours.",
         ]
     },
     {
@@ -30740,6 +30885,7 @@ export const items: Array<any> = [
         "source": "SCC",
         "page": 39,
         "rarity": "uncommon",
+        "value": 54999,
         "reqAttune": "by a spellcaster",
         "reqAttuneTags": [
             {
@@ -30753,6 +30899,10 @@ export const items: Array<any> = [
         "entries": [
             "The Silverquill Primer is a magic textbook created at Strixhaven's Silverquill College. The primer has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. If you make a Charisma ({@skill Intimidation}) or a Charisma ({@skill Persuasion}) check while holding the primer, you can expend 1 charge to give yourself a {@dice 1d4} bonus to the check, immediately after you roll the {@dice d20}.",
             "In addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the bard or cleric spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma."
+        ],
+        "wbtwentries": [
+            "\"The Shady Market and Strixhaven have teamed up to offer a scholarship program to all brigands looking to learn the literature that lets loose legerdemain!  First 33 to sign on get a free Cuddly Strixhaven Mascot and a Primer from their school of choice!\" - Posters around the burrow say this.",
+            "If you read the subtext, you'll find that holding the Silverquill Primer supernaturally supplements speech to enhance your *Persuasion* and *Intimidation* checks.  It also trains the user on how to cast level one bard and cleric spells, which will be the focus of the first year of studies."
         ]
     },
     {
@@ -31535,6 +31685,7 @@ export const items: Array<any> = [
             }
         ],
         "rarity": "uncommon",
+        "value": 30000,
         "reqAttune": "optional",
         "wondrous": true,
         "entries": [
@@ -31544,6 +31695,12 @@ export const items: Array<any> = [
             "You can imbue the gem with a spell if you're attuned to it and it's empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spell's level must be no higher than the gem's maximum. If the spell belongs to the school of abjuration and requires material components that are consumed, you must provide them, but they can be worth half as much as normal.",
             "Once imbued with a spell, the gem can't be imbued again until the next dawn.",
             "Deep gnomes created these magic gemstones and keep the creation process a secret."
+        ],
+        "nakentries": [
+            "The secret craft of the Svirfneblin, or in the common tongue, the Deep Gnomes of the Underdark.",
+            "Spell Gems can store one charge of a spell, which can be cast by anyone holding it, expending the charge.  The level of spell the gem can store is determined by the type of the gem.  An Obsidian Spell Gem contains one random cantrip.",
+            "To charge a spell gem, it must be pressed against your bare skin while you cast the spell as you normally would.",
+            "Even druids are jealous of the harmony the Svirfneblin have with earth, stone, and gem and none have succeeded in reproducing their craft."
         ]
     },
     {
@@ -36015,9 +36172,18 @@ export const items: Array<any> = [
         "source": "IDRotF",
         "page": 316,
         "rarity": "common",
+        "value": 3500,
         "wondrous": true,
         "entries": [
             "This 3-inch cube of solid brimstone generates enough dry heat to keep the temperature within 15 feet of it at 95 degrees Fahrenheit (35 degrees Celsius)."
+        ],
+        "nakentries" : [
+            "The god Auril found the northern half of the plane Toril so beautiful that she froze it to preserve its beauty.  The denizens were forced to find unique solutions for warmth, or die of hypothermia.",
+            "This 3 inch cube of solid brimstone is one such solution.  It radiates warmth until everything around it is 95 degrees Fahrenheit."
+        ],
+        "wbtwentries": [
+            "I hate going to Toril as much as I hate going to Yon.  Both colder than Endelyn's icy heart, I swear it.  You can only get these foul smelling little cubes from Toril though, and they make the trip worthwhile.",
+            "Li'l Brigganock's will pay you their best wish stone for one of these, since the cubes keep anything near them warm in the bitter cold."
         ]
     },
     {
@@ -38450,7 +38616,7 @@ export const items: Array<any> = [
         "page": 139,
         "tier": "minor",
         "rarity": "common",
-        "value": 27000,
+        "value": 2700,
         "wondrous": true,
         "entries": [
             "When you grasp this walking cane and use a bonus action to speak the command word, it transforms into an ordinary longsword and ceases to be magical."
@@ -38752,6 +38918,7 @@ export const items: Array<any> = [
         "type": "WD",
         "tier": "minor",
         "rarity": "common",
+        "value": 500,
         "weight": 1,
         "recharge": "dawn",
         "rechargeAmount": 3,
@@ -38759,6 +38926,11 @@ export const items: Array<any> = [
         "entries": [
             "This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and create orchestral music by waving it around. The music can be heard out to a range of 60 feet and ends when you stop waving the wand.",
             "The wand regains all expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, a sad tuba sound plays as the wand crumbles to dust and is destroyed."
+        ],
+        "nakentries": [
+            "This wand packs the power of a full orchestra at your fingertips!",
+            "Waving the wand in the air with the precision of a conductor consumes one of its five charges and emits orchestral music out to a range of 60ft (centered on the wand) until you cease conducting.",
+            "You cannot restore charges to the wand of conducting and when the last charge is consumed, the wand crumbles to dust with a sad musical lick.",
         ]
     },
     {
@@ -40548,6 +40720,7 @@ export const items: Array<any> = [
         "source": "SCC",
         "page": 39,
         "rarity": "uncommon",
+        "value": 54999,
         "reqAttune": "by a spellcaster",
         "reqAttuneTags": [
             {
@@ -40561,6 +40734,10 @@ export const items: Array<any> = [
         "entries": [
             "The Witherbloom Primer is a magic textbook created at Strixhaven's Witherbloom College. The primer has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. If you make an Intelligence ({@skill Nature}) or Wisdom ({@skill Survival}) check while holding the primer, you can expend 1 charge to give yourself a {@dice 1d4} bonus to the check, immediately after you roll the {@dice d20}.",
             "In addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the druid or wizard spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma."
+        ],
+        "wbtwentries": [
+            "\"The Shady Market and Strixhaven have teamed up to offer a scholarship program to all brigands looking to let their magic blossom!  First 33 to sign on get a free Cuddly Strixhaven Mascot and a Primer from their school of choice!\" - Posters around the burrow say this.",
+            "If you read the subtext, you'll find that holding the Witherbloom Primer opens your mind to the lessons of life to enhance your *Nature* and *Survival* checks.  It also trains the user on how to cast level one druid and wizard spells, which will be the focus of the first year of studies."
         ]
     },
     {

@@ -80,7 +80,7 @@ client.on("messageCreate", (message) => {
         const rngH = seedrandom(`${(currentTime.getFullYear()*10000) + (currentTime.getMonth() * 100) + currentTime.getDate()}h`);
         const rngI = seedrandom(`${(currentTime.getFullYear()*10000) + (currentTime.getMonth() * 100) + currentTime.getDate()}i`);
 
-        let finalMessage = "Here's what's up for grabs today:\n";
+        const finalMessages: string[] = [];
 
         const mundaneItem1 = mundaneItems[Math.floor(rngA()*mundaneItems.length)];
         const mundaneItem2 = mundaneItems[Math.floor(rngB()*mundaneItems.length)];
@@ -112,42 +112,76 @@ client.on("messageCreate", (message) => {
             {item: other1, rarity: 6}
         ]
 
+        let currentMessage = "Here's what's up for grabs today:\n";
         allItems.forEach(item => {
             if(shouldAddItem(item["rarity"])){
-                // If this is a rare item and we haven't displayed Blanca's special indicator message
+                // If this is a rare item and we haven't displayed Blanca's special indicator message, add the indicator message.
                 if(item["rarity"] > 3 && !isRarityMessageDisplayed){
                     isRarityMessageDisplayed = true;
-                    finalMessage += "What you're about to see next is special.  Sure to sell before the next time you check, I guarantee.\n";
+                    currentMessage += "What you're about to see next is special.  Sure to sell before the next time you check, I guarantee.\n";
                 }
-                // Paste the item name and show if it has a picture I can link.
-                finalMessage += `• **__${item["item"]["name"]}${item["item"]["hasFluffImages"] ? ":frame_photo:" : ""}__**`;
-                if(item["item"]["value"]){
-                    finalMessage += ` *${getPriceAsString(item["item"]["value"])}*`;
-                }
-                /* 
-                
-                I was going to add details to mundane items but Discord doesn't support long messages from bots :/
-                I'm thinking maybe I could send the mundane and the magic items in separate messages, but I'll do that if this becomes a big issue.
 
-                if(item["rarity"] <= 1 && item["item"]["entries"]){
-                    finalMessage += ` - ${Array.from(item["item"]["entries"]).join(" ")}`;
-                }
-                */
-                if(item["item"]["nakentries"]){
-                    finalMessage += ` - ${Array.from(item["item"]["nakentries"]).join(" ")}`;
+                // If it's a mundane item, show its normal D&D description if it has one.
+                // All mundane items should be a single post with the first common magic item.
+                if(item["rarity"] <= 1){
+                    currentMessage += getItemHeader(item["item"]);
+                    if(item["item"]["entries"]){
+                        currentMessage += ` - ${Array.from(item["item"]["entries"]).join(" ")}\n`;
+                    }else{
+                        currentMessage += `\n`;
+                    }
+                }else{
+                    if(currentMessage.length > 0){
+                        finalMessages.push(currentMessage);
+                    }
+
+                    currentMessage = getItemHeader(item["item"]);
+
+                    // If it's an item for which I've written a description, show one of my descriptions.
+                    if(item["item"]["wbtwentries"]){
+                        currentMessage += ` - ${Array.from(item["item"]["wbtwentries"]).join(" ")}`;
+                    }
+                    else if(item["item"]["nakentries"]){
+                        currentMessage += ` - ${Array.from(item["item"]["nakentries"]).join(" ")}`;
+                    }
+
+                    finalMessages.push(currentMessage);
+                    currentMessage = "";
                 }
             }
-            finalMessage += "\n";
         });
-        message.channel.send(finalMessage);
-
-        finalMessage = "";
+        finalMessages.forEach(thisMessage => {
+            message.channel.send(thisMessage);
+        });
     }
 })
 
 /********************
  * HELPER FUNCTIONS *
  ********************/
+const getItemHeader = (item: any) => {
+    // Paste the item name and show a link to it's picture if it has one.
+    // This should happen for all items.
+    return `• **__${item["name"]}__**${item["hasFluffImages"] ? getFluffImageLink(item["source"], item["name"]) : ""} ${item["value"] ? ` *${getPriceAsString(item["value"])}*` : ""}`;
+}
+
+const getFluffImageLink = (itemSource: string, itemName: string): string => {
+    let finalString = ` <https://5e.tools/img/items/${itemSource}/`;
+
+    if([ "AI" ].indexOf(itemSource) !== -1){
+        finalString += itemName.toLocaleLowerCase().replaceAll(/[^\w\s]/g, '').replaceAll(' ','-');
+    }else{
+        finalString += itemName.replaceAll(' ','%20');
+    }
+
+    if([ "OotA", "XGE" ].indexOf(itemSource) !== -1){
+        finalString += ".png>";
+    }else{
+        finalString += ".jpg>";
+    }
+    return finalString;
+}
+
 const shouldAddItem = (rarity: number): boolean => {
     switch(rarity) {
         case 1: // Mundane Items
@@ -176,5 +210,5 @@ const getPriceAsString = (value: number): string => {
     tempValue = Math.floor(tempValue/10);
     const gold = `${tempValue} GP `;
 
-    return(`${gold !== "0 GP " ? gold : ""}${silver !== "0 SP " ? silver : ""}${copper !== "0 CP " ? copper : ""}`);
+    return(`${gold !== "0 GP " ? gold : ""}${silver !== "0 SP " ? silver : ""}${copper !== "0 CP " ? copper : ""}`.trim());
 }
